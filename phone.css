@@ -1,0 +1,142 @@
+/* Navigation */
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    font-family: 'Grape Nuts', cursive;
+    /* flex-direction: column; */
+    font-size: 12px;
+}
+
+/* Home */
+
+#home{
+    flex-direction: column;
+}
+
+#services {
+    flex-direction: column;
+    position: relative;
+    bottom: 300px;
+}
+
+.client-item{
+    display: flex;
+    flex-direction: column;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p {
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Bree Serif', serif;
+    width: 372px;
+    position: relative;
+    bottom: 189px;
+}
+
+.h-primary {
+    font-size: 2.4rem;
+    padding: 12px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    margin-top: 376px;
+    position: relative;
+    bottom: 196px;
+}
+
+/* Order Now */
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(177, 146, 141);
+    margin: 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 140px;
+    position: relative;
+    bottom: 169px;
+}
+
+.ourservice{
+    position: relative;
+    bottom: 260px;
+}
+
+/* Hand img */
+.hand {
+    width: 265px;
+}
+/* Our Clients */
+#client-section {
+    height: 344px;
+    position: relative;
+    bottom: 324px;
+}
+
+.client-item {
+    padding: 8px;
+}
+
+#clients img {
+    height: 54px;
+}
+
+.primary {
+    font-size: 2.8rem;
+    padding: 12px;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url(vegetable.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 169px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Contact Us */
+
+#contact {
+    position: relative;
+    bottom: 490px;
+}
+
+.contact {
+    font-size: 3.1rem;
+    position: relative;
+    top: 0px;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 0px;
+}
+
+/* Footer */
+footer {
+    color: white;
+    background-color: black;
+    padding: 9px 20px;
+    position: relative;
+    bottom: 490px;
+}
